@@ -205,6 +205,17 @@ body {
     animation: fadeInAnimation 1s;
 }
 
+.work {
+    display: flex;
+}
+
+.timeline {
+    margin-left: 12.5%;
+    align-items: stretch;
+    background-color: white;
+    width: 2px;
+}
+
 /*
 .content-wrapper {
     animation: fadeInAnimation 1s ease-in-out;
@@ -218,6 +229,13 @@ body {
     justify-items: center;
     padding-left: 5%;
     padding-right: 5%;
+}
+
+.portfolio-items-wrapper.work-wrap {
+    width: 30%;
+    padding-left: 35%;
+    padding-right: 0;
+    grid-template-columns: 1fr;
 }
 
 .academics{
